@@ -1,0 +1,15 @@
+*{
+    font-family:helvetica
+}
+div{
+    width:1700px;
+    padding: 5px;
+}
+
+.setup {
+    background:yellow
+}
+
+.punchline {
+    background:limegreen;
+}

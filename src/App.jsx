@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import FetchJokes from './components/FetchJokes';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
- <div>
-  <h1>Hello Axios</h1>
- </div>
+      <div>
+        <h1>Hello Axios</h1>
+        <FetchJokes />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
